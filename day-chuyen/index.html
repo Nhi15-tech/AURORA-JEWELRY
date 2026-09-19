@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bộ Sưu Tập Dây Chuyền Cao Cấp | AURORA Fine Jewelry</title>
+  <meta name="description" content="Khám phá các thiết kế dây chuyền vàng 18K, bạc Ý 925, đính ngọc trai tự nhiên và đá quý cắt giác độc bản từ Aurora Jewelry." />
+  
+  <!-- Phông chữ Haute Horlogerie & Fine Jewelry -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <style>
+    /* =================== RESET & BIẾN TOÀN CỤC =================== */
+    :root {
+      --font-serif: 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+      --color-gold: #c5a059;
+      --color-gold-dark: #a27b34;
+      --color-gold-light: #f7f2e7;
+      --color-dark: #121212;
+      --color-gray-dark: #333333;
+      --color-gray-medium: #777777;
+      --color-gray-light: #f9f9f9;
+      --color-border: #e6e6e6;
+      --color-white: #ffffff;
+      --transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      --container-max: 1240px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      color: var(--color-dark);
+      background-color: var(--color-white);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: var(--transition);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .container {
+      width: 90%;
+      max-width: var(--container-max);
+      margin: 0 auto;
+    }
+
+    /* =================== HEADER & NAV =================== */
+    .top-announcement {
+      background: var(--color-dark);
+      color: var(--color-white);
+      text-align: center;
+      font-size: 0.75rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 7px 0;
+      font-weight: 400;
+    }
+
+    .site-header {
+      background: var(--color-white);
+      border-bottom: 1px solid var(--color-border);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 75px;
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      line-height: 1.1;
+    }
+
+    .logo strong {
+      font-family: var(--font-serif);
+      font-size: 1.85rem;
+      letter-spacing: 4px;
+      font-weight: 600;
+      color: var(--color-dark);
+    }
+
+    .logo span {
+      font-size: 0.65rem;
+      letter-spacing: 3px;
+      color: var(--color-gold);
+      font-weight: 500;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-links a {
+      font-size: 0.85rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      font-weight: 500;
+      position: relative;
+      padding: 5px 0;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--color-gold);
+      transition: var(--transition);
+    }
+
+    .nav-links a:hover::after,
+    .nav-links a.active::after {
+      width: 100%;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .header-actions a,
+    .header-actions button {
+      background: none;
+      border: none;
+      font-size: 1.1rem;
+      color: var(--color-dark);
+      cursor: pointer;
+      position: relative;
+      transition: var(--transition);
+    }
+
+    .header-actions a:hover,
+    .header-actions button:hover {
+      color: var(--color-gold);
+    }
+
+    .cart-badge {
+      position: absolute;
+      top: -8px;
+      right: -10px;
+      background: var(--color-gold);
+      color: #fff;
+      font-size: 0.65rem;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+    }
+
+    /* =================== HERO BANNER =================== */
+    .page-banner {
+      background: linear-gradient(rgba(18, 18, 18, 0.45), rgba(18, 18, 18, 0.45)), 
+                  url('https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80&w=1800') center/cover no-repeat;
+      color: var(--color-white);
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    .eyebrow {
+      font-size: 0.75rem;
+      letter-spacing: 3.5px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--color-gold);
+      display: inline-block;
+      margin-bottom: 12px;
+    }
+
+    .page-banner h1 {
+      font-family: var(--font-serif);
+      font-size: 3.2rem;
+      font-weight: 500;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+    }
+
+    .page-banner p {
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 0.95rem;
+      font-weight: 300;
+      color: #e0e0e0;
+      line-height: 1.8;
+    }
+
+    /* =================== BỘ LỌC & THANH ĐIỀU HƯỚNG =================== */
+    .catalog-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 0 20px;
+      border-bottom: 1px solid var(--color-border);
+      margin-bottom: 40px;
+    }
+
+    .filter-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .filter-btn {
+      background: transparent;
+      border: 1px solid var(--color-border);
+      padding: 8px 18px;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+      border-radius: 2px;
+    }
+
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: var(--color-dark);
+      color: var(--color-white);
+      border-color: var(--color-dark);
+    }
+
+    .sort-box {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.85rem;
+    }
+
+    .sort-select {
+      padding: 8px 14px;
+      border: 1px solid var(--color-border);
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      color: var(--color-dark);
+      outline: none;
+      cursor: pointer;
+      background: #fff;
+    }
+
+    /* =================== PRODUCT GRID =================== */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 35px 25px;
+      margin-bottom: 70px;
+    }
+
+    .product-card {
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: var(--transition);
+    }
+
+    .product-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .product-media {
+      position: relative;
+      overflow: hidden;
+      aspect-ratio: 1 / 1.15;
+      background-color: var(--color-gray-light);
+    }
+
+    .product-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: opacity 0.45s ease, transform 0.6s ease;
+    }
+
+    .product-media .img-secondary {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
+
+    .product-card:hover .product-media .img-primary {
+      opacity: 0;
+    }
+
+    .product-card:hover .product-media .img-secondary {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+
+    .badge {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      background: #fff;
+      padding: 4px 10px;
+      font-size: 0.68rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: 600;
+      z-index: 2;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    .badge-bestseller { color: #d48806; border-left: 2px solid #d48806; }
+    .badge-limited { color: #c0392b; border-left: 2px solid #c0392b; }
+    .badge-new { color: #27ae60; border-left: 2px solid #27ae60; }
+
+    .quick-actions {
+      position: absolute;
+      bottom: -45px;
+      left: 0;
+      right: 0;
+      display: flex;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(4px);
+      transition: var(--transition);
+      z-index: 3;
+    }
+
+    .product-card:hover .quick-actions {
+      bottom: 0;
+    }
+
+    .quick-btn {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      background: transparent;
+      font-size: 0.75rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      border-top: 1px solid var(--color-border);
+    }
+
+    .quick-btn:hover {
+      background: var(--color-dark);
+      color: var(--color-white);
+    }
+
+    .quick-btn:first-child {
+      border-right: 1px solid var(--color-border);
+    }
+
+    .product-body {
+      padding: 20px 0 10px;
+      text-align: center;
+    }
+
+    .product-material {
+      font-size: 0.72rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--color-gray-medium);
+      margin-bottom: 6px;
+    }
+
+    .product-name {
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--color-dark);
+      margin-bottom: 6px;
+      letter-spacing: 0.5px;
+    }
+
+    .product-price {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--color-gold-dark);
+      letter-spacing: 0.5px;
+    }
+
+    /* =================== SIZE GUIDE SECTION =================== */
+    .size-guide-section {
+      background: var(--color-gold-light);
+      padding: 70px 0;
+      margin-bottom: 70px;
+    }
+
+    .guide-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .guide-content h2 {
+      font-family: var(--font-serif);
+      font-size: 2.3rem;
+      font-weight: 500;
+      margin-bottom: 18px;
+    }
+
+    .guide-content p {
+      font-size: 0.92rem;
+      color: var(--color-gray-dark);
+      margin-bottom: 25px;
+      line-height: 1.8;
+    }
+
+    .size-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+
+    .size-table th, .size-table td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid rgba(197, 160, 89, 0.3);
+    }
+
+    .size-table th {
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* =================== BRAND PROMISES =================== */
+    .brand-promises {
+      border-top: 1px solid var(--color-border);
+      padding: 50px 0;
+      margin-bottom: 40px;
+    }
+
+    .promises-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      text-align: center;
+    }
+
+    .promise-item i {
+      font-size: 1.8rem;
+      color: var(--color-gold);
+      margin-bottom: 15px;
+    }
+
+    .promise-item h4 {
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .promise-item p {
+      font-size: 0.78rem;
+      color: var(--color-gray-medium);
+      line-height: 1.5;
+    }
+
+    /* =================== FOOTER =================== */
+    .site-footer {
+      background: var(--color-dark);
+      color: #bbb;
+      padding: 70px 0 25px;
+      font-size: 0.85rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1.5fr;
+      gap: 40px;
+      margin-bottom: 50px;
+    }
+
+    .footer-col h4 {
+      color: var(--color-white);
+      font-size: 0.85rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .footer-col ul {
+      list-style: none;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer-col ul li a:hover {
+      color: var(--color-gold);
+    }
+
+    .newsletter-form {
+      display: flex;
+      margin-top: 15px;
+    }
+
+    .newsletter-input {
+      flex: 1;
+      padding: 10px 14px;
+      border: 1px solid #444;
+      background: #1e1e1e;
+      color: #fff;
+      font-size: 0.8rem;
+      outline: none;
+    }
+
+    .newsletter-btn {
+      background: var(--color-gold);
+      border: none;
+      color: #fff;
+      padding: 0 16px;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .newsletter-btn:hover {
+      background: var(--color-gold-dark);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #222;
+      padding-top: 25px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.75rem;
+      color: #777;
+    }
+
+    /* =================== QUICK VIEW MODAL =================== */
+    .modal-backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(5px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 2000;
+    }
+
+    .modal-box {
+      background: #fff;
+      width: 90%;
+      max-width: 800px;
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      position: relative;
+      border-radius: 2px;
+      overflow: hidden;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      font-size: 1.5rem;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      color: #666;
+    }
+
+    .modal-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .modal-content {
+      padding: 40px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .modal-content h3 {
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      margin-bottom: 8px;
+    }
+
+    .modal-content .modal-price {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--color-gold-dark);
+      margin-bottom: 15px;
+    }
+
+    .modal-content p {
+      font-size: 0.88rem;
+      color: var(--color-gray-dark);
+      margin-bottom: 20px;
+      line-height: 1.7;
+    }
+
+    .modal-buy-btn {
+      display: inline-block;
+      text-align: center;
+      background: var(--color-dark);
+      color: #fff;
+      padding: 12px 25px;
+      font-size: 0.82rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 600;
+      transition: var(--transition);
+    }
+
+    .modal-buy-btn:hover {
+      background: var(--color-gold);
+    }
+
+    /* =================== TOAST NOTIFICATION =================== */
+    .toast {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background: var(--color-dark);
+      color: #fff;
+      padding: 14px 24px;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+      border-left: 3px solid var(--color-gold);
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.3s ease;
+      z-index: 3000;
+    }
+
+    .toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    /* =================== RESPONSIVE DESIGN =================== */
+    @media (max-width: 992px) {
+      .product-grid { grid-template-columns: repeat(2, 1fr); }
+      .promises-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .guide-container { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .page-banner h1 { font-size: 2.2rem; }
+      .catalog-toolbar { flex-direction: column; gap: 15px; align-items: flex-start; }
+      .modal-box { grid-template-columns: 1fr; }
+      .modal-image { height: 250px; }
+      .modal-content { padding: 25px 20px; }
+    }
+
+    @media (max-width: 576px) {
+      .product-grid { grid-template-columns: 1fr; }
+      .promises-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="top-announcement">
+    Miễn phí giao hàng bảo hiểm hỏa tốc &amp; Tặng kèm hộp nhung cao cấp cho đơn từ 2.000.000₫
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a href="index.html" class="logo">
+        <strong>AURORA</strong>
+        <span>FINE JEWELRY</span>
+      </a>
+      
+      <nav class="nav-links">
+        <a href="index.html">Trang chủ</a>
+        <a href="nhan.html">Nhẫn</a>
+        <a href="day-chuyen.html" class="active">Dây chuyền</a>
+        <a href="phu-kien.html">Bông tai &amp; Vòng</a>
+        <a href="dat-hang.html">Đặt hàng</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="dat-hang.html" title="Giỏ hàng">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-badge" id="cartCount">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner bộ sưu tập -->
+  <section class="page-banner">
+    <div class="container">
+      <span class="eyebrow">FINE NECKLACES COLLECTION</span>
+      <h1>Dây Chuyền &amp; Mặt Dây Tuyển Chọn</h1>
+      <p>Mỗi tác phẩm là bản giao hưởng giữa nghệ thuật chế tác kim hoàn thủ công và đường nét hiện đại, tôn vinh khí chất thanh nhã của người đeo.</p>
+    </div>
+  </section>
+
+  <!-- Danh mục và Bộ lọc -->
+  <main class="container">
+    <div class="catalog-toolbar">
+      <!-- Bộ lọc chất liệu -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">Tất cả (6)</button>
+        <button class="filter-btn" data-filter="gold">Vàng 18K</button>
+        <button class="filter-btn" data-filter="silver">Bạc Ý 925</button>
+        <button class="filter-btn" data-filter="pearl">Ngọc trai</button>
+        <button class="filter-btn" data-filter="gemstone">Đá quý</button>
+      </div>
+
+      <!-- Sắp xếp giá -->
+      <div class="sort-box">
+        <label for="sortSelect"><i class="fa-solid fa-arrow-down-short-wide"></i> Sắp xếp:</label>
+        <select id="sortSelect" class="sort-select">
+          <option value="featured">Nổi bật nhất</option>
+          <option value="low-to-high">Giá: Thấp đến Cao</option>
+          <option value="high-to-low">Giá: Cao đến Thấp</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="product-grid" id="productGrid">
+
+      <!-- SP 1: Ngọc trai -->
+      <article class="product-card" data-category="pearl" data-price="1690000">
+        <div class="product-media">
+          <span class="badge badge-bestseller">Best Seller</span>
+          <img class="img-primary" src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80&w=800" alt="Aurora Pearl Essence" loading="lazy">
+          <img class="img-secondary" src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=800" alt="Aurora Pearl Essence Detail" loading="lazy">
+          <div class="quick-actions">
+            <button class="quick-btn btn-quickview" 
+              data-name="Aurora Pearl Essence" 
+              data-price="1.690.000₫" 
+              data-desc="Dây chuyền ngọc trai nước ngọt tự nhiên loại AAA kết hợp dây chuyền bạc Ý 925 phủ rhodium sáng bóng. Chiều dài dây 42cm kèm chốt nới linh hoạt."
+              data-img="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80&w=800">
+              Xem nhanh
+            </button>
+            <button class="quick-btn btn-addcart" data-name="Aurora Pearl Essence">Thêm giỏ</button>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-material">Bạc Ý 925 &bull; Ngọc Trai Nước Ngọt</div>
+          <h3 class="product-name">Aurora Pearl Essence</h3>
+          <p class="product-price">1.690.000₫</p>
+        </div>
+      </article>
+
+      <!-- SP 2: Vàng 18K -->
+      <article class="product-card" data-category="gold" data-price="1890000">
+        <div class="product-media">
+          <span class="badge badge-new">New Arrival</span>
+          <img class="img-primary" src="https://images.unsplash.com/photo-1611591475817-268e27863f69?auto=format&fit=crop&q=80&w=800" alt="Solstice Gold Triangle" loading="lazy">
+          <img class="img-secondary" src="https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?auto=format&fit=crop&q=80&w=800" alt="Solstice Gold Detail" loading="lazy">
+          <div class="quick-actions">
+            <button class="quick-btn btn-quickview"
+              data-name="Solstice Gold Triangle" 
+              data-price="1.890.000₫" 
+              data-desc="Được chế tác từ vàng 18K Vermeil cao cấp với mặt dây hình tam giác tối giản, phản chiếu ánh sáng sắc sảo theo từng nhịp chuyển động."
+              data-img="https://images.unsplash.com/photo-1611591475817-268e27863f69?auto=format&fit=crop&q=80&w=800">
+              Xem nhanh
+            </button>
+            <button class="quick-btn btn-addcart" data-name="Solstice Gold Triangle">Thêm giỏ</button>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-material">Vàng 18K Vermeil</div>
+          <h3 class="product-name">Solstice Gold Triangle</h3>
+          <p class="product-price">1.890.000₫</p>
+        </div>
+      </article>
+
+      <!-- SP 3: Bạc & Đá -->
+      <article class="product-card" data-category="silver gemstone" data-price="1590000">
+        <div class="product-media">
+          <img class="img-primary" src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=800" alt="Luna Crescent Pendant" loading="lazy">
+          <img class="img-secondary" src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80&w=800" alt="Luna Crescent Detail" loading="lazy">
+          <div class="quick-actions">
+            <button class="quick-btn btn-quickview"
+              data-name="Luna Crescent Pendant" 
+              data-price="1.590.000₫" 
+              data-desc="Mặt trăng khuyết khảm dải đá Zirconia tinh khiết giác cắt vương giả, tượng trưng cho nét đẹp dịu dàng và cuốn hút bí ẩn."
+              data-img="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=800">
+              Xem nhanh
+            </button>
+            <button class="quick-btn btn-addcart" data-name="Luna Crescent Pendant">Thêm giỏ</button>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-material">Bạc 925 &bull; Đá Pha Lê CZ</div>
+          <h3 class="product-name">Luna Crescent Pendant</h3>
+          <p class="product-price">1.590.000₫</p>
+        </div>
+      </article>
+
+      <!-- SP 4: Đá quý -->
+      <article class="product-card" data-category="gemstone" data-price="2090000">
+        <div class="product-media">
+          <span class="badge badge-limited">Giới hạn</span>
+          <img class="img-primary" src="https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&q=80&w=800" alt="Crystal Tear Drop" loading="lazy">
+          <img class="img-secondary" src="https://images.unsplash.com/photo-1611591475817-268e27863f69?auto=format&fit=crop&q=80&w=800" alt="Crystal Drop Detail" loading="lazy">
+          <div class="quick-actions">
+            <button class="quick-btn btn-quickview"
+              data-name="Crystal Tear Drop" 
+              data-price="2.090.000₫" 
+              data-desc="Đá pha lê Thụy Sĩ giọt lệ nạm 4 chấu chắc chắn trên nền dây xích mảnh mạ vàng hồng 14K, tạo hiệu ứng giọt sương bắt sáng rực rỡ."
+              data-img="https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&q=80&w=800">
+              Xem nhanh
+            </button>
+            <button class="quick-btn btn-addcart" data-name="Crystal Tear Drop">Thêm giỏ</button>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-material">Vàng Hồng 14K &bull; Pha Lê Thụy Sĩ</div>
+          <h3 class="product-name">Crystal Tear Drop</h3>
+          <p class="product-price">2.090.000₫</p>
+        </div>
+      </article>
+
+      <!-- SP 5: Bạc tối giản -->
+      <article class="product-card" data-category="silver" data-price="1290000">
+        <div class="product-media">
+          <img class="img-primary" src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=800" alt="Pure Minimal Chain" loading="lazy">
+          <img class="img-secondary" src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=800" alt="Pure Chain Detail" loading="lazy">
+          <div class="quick-actions">
+            <button class="quick-btn btn-quickview"
+              data-name="Pure Minimal Chain" 
+              data-price="1.290.000₫" 
+              data-desc="Mẫu dây chuyền mắt xích cổ điển tối giản, được thiết kế chuyên biệt để đeo đơn lẻ hoặc phối nhiều lớp (Layering) theo xu hướng hiện đại."
+              data-img="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=800">
+              Xem nhanh
+            </button>
+            <button class="quick-btn btn-addcart" data-name="Pure Minimal Chain">Thêm giỏ</button>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-material">Bạc Ý 925 Phủ Bạch Kim</div>
+          <h3 class="product-name">Pure Minimal Chain</h3>
+          <p class="product-price">1.290.000₫</p>
+        </div>
+      </article>
+
+      <!-- SP 6: Vàng Signature -->
+      <article class="product-card" data-category="gold" data-price="2290000">
+        <div class="product-media">
+          <span class="badge badge-bestseller">Signature</span>
+          <img class="img-primary" src="https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?auto=format&fit=crop&q=80&w=800" alt="Aurora Signature Medallion" loading="lazy">
+          <img class="img-secondary" src="https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&q=80&w=800" alt="Aurora Medallion Detail" loading="lazy">
+          <div class="quick-actions">
+            <button class="quick-btn btn-quickview"
+              data-name="Aurora Signature Medallion" 
+              data-price="2.290.000₫" 
+              data-desc="Huy hiệu mặt trời mọc độc quyền của Aurora Jewelry, chạm khắc thủ công viền tia sáng sắc sảo, đúc từ vàng nguyên khối 18K."
+              data-img="https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?auto=format&fit=crop&q=80&w=800">
+              Xem nhanh
+            </button>
+            <button class="quick-btn btn-addcart" data-name="Aurora Signature Medallion">Thêm giỏ</button>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-material">Vàng Đúc 18K Nguyên Khối</div>
+          <h3 class="product-name">Aurora Signature Medallion</h3>
+          <p class="product-price">2.290.000₫</p>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- Hướng dẫn đo kích thước dây chuyền -->
+  <section class="size-guide-section">
+    <div class="container guide-container">
+      <div class="guide-content">
+        <span class="eyebrow">CHUYÊN GIA TƯ VẤN</span>
+        <h2>Hướng Dẫn Chọn Chiều Dài Dây</h2>
+        <p>Chọn đúng chiều dài dây chuyền sẽ làm nổi bật phần xương quai xanh và tạo điểm nhấn hài hòa cho tổng thể bộ trang phục của bạn.</p>
+        <table class="size-table">
+          <thead>
+            <tr>
+              <th>Độ dài dây</th>
+              <th>Vị trí rơi trên cơ thể</th>
+              <th>Trang phục khuyên dùng</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>40 cm (Choker)</strong></td>
+              <td>Ngay sát chân cổ</td>
+              <td>Áo cổ vuông, cổ thuyền, áo trễ vai</td>
+            </tr>
+            <tr>
+              <td><strong>45 cm (Princess)</strong></td>
+              <td>Chạm xương quai xanh (Phổ biến nhất)</td>
+              <td>Áo sơ mi mở cúc, áo cổ V, đầm dạ hội</td>
+            </tr>
+            <tr>
+              <td><strong>50 - 55 cm (Matinée)</strong></td>
+              <td>Nằm ngang ngực trên</td>
+              <td>Cổ lọ, áo len cổ tròn, phong cách layer</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="guide-image">
+        <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=800" alt="Minh họa kích cỡ dây chuyền" style="box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-radius: 2px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- Cam kết dịch vụ thượng hạng -->
+  <section class="container brand-promises">
+    <div class="promises-grid">
+      <div class="promise-item">
+        <i class="fa-solid fa-award"></i>
+        <h4>Bảo Chứng Giám Định</h4>
+        <p>Đính kèm chứng thư kiểm định đá quý và hàm lượng kim loại quý.</p>
+      </div>
+      <div class="promise-item">
+        <i class="fa-solid fa-gem"></i>
+        <h4>Làm Sáng Trọn Đời</h4>
+        <p>Bảo dưỡng, vệ sinh siêu âm và đánh bóng miễn phí vĩnh viễn.</p>
+      </div>
+      <div class="promise-item">
+        <i class="fa-solid fa-truck-fast"></i>
+        <h4>Giao Hàng Niêm Phong</h4>
+        <p>Đóng gói hộp nhung chống sốc, vận chuyển bảo hiểm toàn trình.</p>
+      </div>
+      <div class="promise-item">
+        <i class="fa-solid fa-rotate-left"></i>
+        <h4>Đổi Trả Trong 14 Ngày</h4>
+        <p>Đổi mới kích thước hoặc kiểu dáng hoàn toàn miễn phí.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="color:#fff; margin-bottom: 15px;">
+            <strong style="color:#fff;">AURORA</strong>
+            <span>FINE JEWELRY</span>
+          </a>
+          <p style="margin-top: 15px; line-height: 1.8;">Biểu tượng của sự tinh tế và tay nghề kim hoàn chuẩn mực. Chế tác thủ công tại xưởng trang sức Hà Nội.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Bộ Sưu Tập</h4>
+          <ul>
+            <li><a href="nhan.html">Nhẫn Cưới &amp; Kim Cương</a></li>
+            <li><a href="day-chuyen.html">Dây Chuyền &amp; Mặt Dây</a></li>
+            <li><a href="phu-kien.html">Hoa Tai &amp; Lắc Tay</a></li>
+            <li><a href="dat-hang.html">Thiết Kế Độc Bản (Bespoke)</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Dịch Vụ Khách Hàng</h4>
+          <ul>
+            <li><a href="#">Chính Sách Bảo Hành</a></li>
+            <li><a href="#">Bảng Quy Đổi Kích Thước</a></li>
+            <li><a href="#">Bảo Quản Trang Sức Đá Quý</a></li>
+            <li><a href="#">Đặt Lịch Xem Tại Showroom</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Nhận Bản Tin Privé</h4>
+          <p>Đăng ký nhận quyền ưu tiên trải nghiệm bộ sưu tập giới hạn:</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Cảm ơn bạn đã đăng ký nhận bản tin của Aurora!');">
+            <input type="email" class="newsletter-input" placeholder="Địa chỉ email của bạn..." required>
+            <button type="submit" class="newsletter-btn"><i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 AURORA FINE JEWELRY. Nhóm 8 — Công nghệ Web.</span>
+        <span>Mã môn học: CSE703064</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Quick View -->
+  <div class="modal-backdrop" id="quickViewModal">
+    <div class="modal-box">
+      <button class="modal-close" id="modalCloseBtn">&times;</button>
+      <div class="modal-image">
+        <img id="modalImg" src="" alt="Chi tiết sản phẩm">
+      </div>
+      <div class="modal-content">
+        <span class="eyebrow" style="color: var(--color-gold);">CHI TIẾT CHẾ TÁC</span>
+        <h3 id="modalTitle">Tên sản phẩm</h3>
+        <div class="modal-price" id="modalPrice">0₫</div>
+        <p id="modalDesc">Mô tả sản phẩm...</p>
+        <a id="modalBuyLink" href="dat-hang.html" class="modal-buy-btn">Đặt mua ngay</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Thông Báo -->
+  <div class="toast" id="toastBox">
+    <i class="fa-solid fa-circle-check" style="color: var(--color-gold);"></i>
+    <span id="toastMsg">Đã thêm vào túi đồ trang sức!</span>
+  </div>
+
+  <!-- Xử lý tính năng (Filter, Sort, Cart & Quick View) -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Quản lý giỏ hàng ảo
+      let cartItems = 0;
+      const cartCountEl = document.getElementById('cartCount');
+      const toastEl = document.getElementById('toastBox');
+      const toastMsg = document.getElementById('toastMsg');
+
+      function showToast(msg) {
+        toastMsg.innerText = msg;
+        toastEl.classList.add('show');
+        setTimeout(() => toastEl.classList.remove('show'), 2800);
+      }
+
+      document.querySelectorAll('.btn-addcart').forEach(btn => {
+        btn.addEventListener('click', () => {
+          cartItems++;
+          cartCountEl.innerText = cartItems;
+          const name = btn.getAttribute('data-name');
+          showToast(`Đã thêm "${name}" vào giỏ hàng`);
+        });
+      });
+
+      // 2. Bộ lọc Tabs (Filter)
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const productCards = document.querySelectorAll('.product-card');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          const filterVal = btn.getAttribute('data-filter');
+
+          productCards.forEach(card => {
+            const categories = card.getAttribute('data-category');
+            if (filterVal === 'all' || categories.includes(filterVal)) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // 3. Sắp xếp giá (Sort)
+      const sortSelect = document.getElementById('sortSelect');
+      const grid = document.getElementById('productGrid');
+
+      sortSelect.addEventListener('change', () => {
+        const val = sortSelect.value;
+        const cardsArray = Array.from(productCards);
+
+        if (val === 'low-to-high') {
+          cardsArray.sort((a, b) => Number(a.dataset.price) - Number(b.dataset.price));
+        } else if (val === 'high-to-low') {
+          cardsArray.sort((a, b) => Number(b.dataset.price) - Number(a.dataset.price));
+        }
+        
+        cardsArray.forEach(card => grid.appendChild(card));
+      });
+
+      // 4. Modal Quick View
+      const modal = document.getElementById('quickViewModal');
+      const closeBtn = document.getElementById('modalCloseBtn');
+      const modalImg = document.getElementById('modalImg');
+      const modalTitle = document.getElementById('modalTitle');
+      const modalPrice = document.getElementById('modalPrice');
+      const modalDesc = document.getElementById('modalDesc');
+      const modalBuyLink = document.getElementById('modalBuyLink');
+
+      document.querySelectorAll('.btn-quickview').forEach(btn => {
+        btn.addEventListener('click', () => {
+          modalImg.src = btn.getAttribute('data-img');
+          modalTitle.innerText = btn.getAttribute('data-name');
+          modalPrice.innerText = btn.getAttribute('data-price');
+          modalDesc.innerText = btn.getAttribute('data-desc');
+          modalBuyLink.href = `dat-hang.html?sp=${encodeURIComponent(btn.getAttribute('data-name'))}`;
+          modal.style.display = 'flex';
+        });
+      });
+
+      closeBtn.addEventListener('click', () => modal.style.display = 'none');
+      window.addEventListener('click', (e) => {
+        if (e.target === modal) modal.style.display = 'none';
+      });
+    });
+  </script>
+</body>
+</html>
